@@ -1,0 +1,222 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.container {
+	width: 100%;
+}
+
+main {
+	width: 100%;
+	margin: auto;
+	margin-top: 2px;
+}
+.clear {
+	clear: both;
+}
+
+header {
+	width: 100%;
+	height: 100%;
+	background-color: bisque;
+	background: url(../image/background.jpg) no-repeat;
+}
+#en_tete {
+	width: 114vw;
+
+	height: 16vh;
+
+	padding-top: 1rem;
+	padding-left: 1rem;
+	margin: auto;
+}
+.logo {
+	width: 18vw;
+
+	height: 14vh;
+	float: left;
+	padding-left: 1rem;
+}
+.logo p {
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.2vw;
+	line-height: 4vh;
+}
+.texte_logo {
+	color: orange;
+}
+#main-navigation ul {
+	display: flex;
+}
+nav {
+	margin-top: 70px;
+}
+nav a {
+	border-right: 1px solid;
+	padding: 10px;
+}
+.achat_ensemble {
+	width: 28vw;
+	height: 6.5vh;
+	float: left;
+	border: 1px solid black;
+	padding-left: 2vw;
+	padding-top: 1vh;
+	margin-bottom: 1vh;
+	background-color: rgb(250, 250, 220);
+}
+.achat {
+	float: left;
+	width: 13vw;
+	height: 6.5vh;
+}
+.icone {
+	float: left;
+}
+.achat p {
+	float: left;
+	margin-left: 1vw;
+	font-weight: bold;
+	line-height: 5vh;
+}
+.bienvenue {
+	text-align: right;
+	font-weight: bold;
+	padding-right: 1px;
+	margin-bottom: 1px;
+}
+.onglets_header {
+	float: left;
+	width: 8vw;
+	height: 2.4vh;
+	border: 1px solid lightgrey;
+	text-align: center;
+}
+.onglets_header a {
+	text-decoration: none;
+	color: black;
+}
+
+/*  ************************header************** */
+
+section {
+	background-color: black;
+}
+#promos {
+	width: 70%;
+	margin: auto;
+	height: 800px;
+	background-color: black;
+	padding-top: 5px;
+}
+.article {
+	float: left;
+	width: 21vw;
+	margin-left: 6vw;
+}
+.image_gant {
+	box-shadow: 3px 3px 6px black;
+}
+.rabais {
+	position: relative;
+	color: orange;
+	width: 5vw;
+	height: 5vh;
+	background-color: black;
+	font-weight: bold;
+	font-size: 1.5vw;
+	text-align: center;
+	border: 1px groove white;
+	top: -40vh;
+	left: 17vw;
+}
+.reference_gant {
+	position: relative;
+	text-align: center;
+	font-weight: bold;
+	top: -9vh;
+}
+.texte_noir {
+	float: left;
+	width: 10vw;
+	height: 3vh;
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	margin-top: -6vh;
+	margin-left: 0.5rem;
+	line-height: 3vh;
+}
+.texte_noir a {
+	text-decoration: none;
+	color: white;
+}
+.texte_blanc {
+	float: left;
+	width: 10vw;
+	height: 3vh;
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	margin-top: -6vh;
+	margin-left: 10.5vw;
+	box-shadow: 1px 1px 2px black;
+	line-height: 3vh;
+	text-decoration: line-through;
+}
+span {
+	text-decoration: none;
+}
+
+/* fin de mon main*************************** */
+
+/********footer ********* */
+
+footer {
+	width: 100%;
+	height: 400px;
+	background: rgb(66, 65, 65);
+}
+.contact {
+	position: relative;
+
+	width: 100%;
+	height: 20px;
+	background: rgb(66, 65, 65);
+	padding-left: 2px;
+	top: -5vh;
+}
+.onglets_footer {
+	float: left;
+	width: 8vw;
+	height: 3vh;
+	background-color: blanchedalmond;
+	text-align: center;
+}
+.service_apres_vente {
+	width: 36vw;
+	margin-left: 28vw;
+	color: white;
+}
+.sav {
+	margin-top: 5vh;
+	float: left;
+	width: 9vw;
+}
+.icone_footer {
+	padding-left: 2vw;
+	margin-bottom: 1vh;
+}
+.reseaux_sociaux {
+	margin-top: 5vh;
+	margin-bottom: 4vh;
+	padding-left: 37vw;
+}
+.reseaux_sociaux a {
+	margin-left: 3vw;
+}
+footer p {
+	color: white;
+}
